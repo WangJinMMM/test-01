@@ -25,3 +25,11 @@
 // 移除文件：git rm -f 要移除的文件(了解) (rm -> remove force强制)
 // 只移除仓库里面的文件，保留本地的文件：git rm --cached 要移除的文件
 
+// 查看本地工程关联的远程仓库：git remote -v
+// 1.git remote add origin https://github.com/WangJinMMM/test-01.git  是用来关联本地仓库和远程仓库的
+// origin ：就是后面git仓库地址的别名
+// 2.git branch -M main  (把默认的master分支名称改成了main)
+// 3.git push -u origin main  (表示第一次从本地仓库朝远程仓库提交)
+// -u ：表示第一次推送
+// origin ：表示要把工程往哪推，这个名字代表的地址就是要推送到的地址
+// 4.后面修改完代码之后，再次提交只需要 git push 即可
